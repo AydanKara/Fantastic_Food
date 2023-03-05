@@ -31,14 +31,52 @@ h6,
 p {
   margin: 0;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row-col-title {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row-title {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.row-col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .offset-1 {
   margin-left: 16.666667%;
 }
 .offset-2 {
   margin-left: 33.333333%;
 }
-
-/*! base start */
+.d_flex_wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .row-col-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .row-col {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+}
+/*! base end */
 
 /*! header start */
 header {
@@ -172,48 +210,18 @@ header {
 .recipes .container {
   max-width: 1170px;
 }
-.recipes .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.recipes .row-col-title {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.row .recipes-row--title {
-  text-align: center;
-  padding-bottom: 60px;
-}
-.recipes .recipes-row--title h2 {
+.recipes h2 {
   font-size: 45px;
   color: #302128;
   line-height: 50px;
-  font-weight: 500;
-  padding: 0;
-  display: inline-block;
-  text-transform: none;
+  font-weight: 700;
   text-transform: capitalize;
 }
-.recipes .recipes-row--title p {
+.recipes p {
   font-size: 17px;
   padding-top: 15px;
   color: #2b2b2b;
 }
-.recipes .row-col {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-}
-
 .recipes .row-col .recipes-row-box {
   background: #fff;
   margin-bottom: 50px;
@@ -266,5 +274,53 @@ header {
 .recipes .row-col-button .btn:hover {
   background: #feb700;
   color: #302128;
+}
+/*! banner end */
+
+/*! about start */
+.about {
+  background: #fff;
+  padding-top: 85px;
+  padding-bottom: 90px;
+}
+.about h2 {
+  font-size: 45px;
+  color: #302128;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.about p {
+  font-size: 17px;
+  padding-top: 15px;
+  color: #2b2b2b;
+}
+.about-bg {
+  background: url(./images/about/about_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 66px 0;
+}
+.about-bg .about-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about-img-left figure, 
+.about-img-center figure, 
+.about-img-right figure {
+  margin: 0;
+}
+.about-img-left figure img, 
+.about-img-center figure img, 
+.about-img-right figure img {
+  max-width: 100%;
+}
+.about-img-right figure img {
+  margin: 0 auto;
+  margin-right: 0;
+  display: block;
 }
 /*! banner end */
