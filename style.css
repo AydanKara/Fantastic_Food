@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  transition: .3s ease all;
 }
 
 body {
@@ -64,10 +65,14 @@ header {
   align-items: center;
   column-gap: 60px;
 }
-.header-row .header-navbar .menu-list li {
+.header-row .header-navbar .menu-list li a {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
+  
+}
+.header-row .header-navbar .menu-list li a:hover {
+  color: #ffc000;
 }
 .header-row .header-search,
 .header-row .header-login {
@@ -80,6 +85,14 @@ header {
   margin: -15px;
   cursor: pointer;
 }
+.header-row .header-search i:hover,
+.header-row .header-login i:hover {
+  color: #fff;
+}
 
 
 /*! header end */
+
+/*! banner start */
+
+/*! banner end */
