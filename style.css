@@ -6,8 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  transition: .3s ease all;
+  font-family: "Lato", sans-serif;
+  transition: 0.3s ease all;
 }
 
 body {
@@ -69,7 +69,6 @@ header {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
-  
 }
 .header-row .header-navbar .menu-list li a:hover {
   color: #ffc000;
@@ -89,7 +88,6 @@ header {
 .header-row .header-login i:hover {
   color: #fff;
 }
-
 
 /*! header end */
 
@@ -136,5 +134,45 @@ header {
   color: #fff;
   font-weight: bold;
   margin-top: -20px;
+}
+/*! banner end */
+
+/*! recipes end */
+.recipes {
+  padding-top: 85px;
+  background: #fff;
+  position: relative;
+}
+.recipes-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.recipes .row-col-title {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.recipes-row .recipes-row--title {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.recipes .recipes-row--title h2 {
+  font-size: 45px;
+  color: #302128;
+  line-height: 50px;
+  font-weight: 500;
+  padding: 0;
+  display: inline-block;
+  text-transform: none;
+  text-transform: capitalize;
+}
+.recipes .recipes-row--title p {
+  font-size: 17px;
+  padding-top: 15px;
+  color: #2b2b2b;
 }
 /*! banner end */
