@@ -31,13 +31,20 @@ h6,
 p {
   margin: 0;
 }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
-.row-col-title {
+.row-col-12 {
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -66,8 +73,12 @@ p {
   align-items: center;
   flex-wrap: wrap;
 }
+/*! responsive */
+@media (min-width: 992px) {
+  
+}
 @media (min-width: 768px) {
-  .row-col-title {
+  .row-col-12 {
     flex: 0 0 100%;
     max-width: 100%;
   }
@@ -75,6 +86,9 @@ p {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
+}
+@media (min-width: 576px) {
+  
 }
 /*! base end */
 
@@ -92,7 +106,7 @@ header {
   display: flex;
   align-items: center;
 }
-.container {
+.header-row .container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -283,6 +297,7 @@ header {
   padding-top: 85px;
   padding-bottom: 90px;
 }
+
 .about h2 {
   font-size: 45px;
   color: #302128;
@@ -308,13 +323,13 @@ header {
   margin-right: auto;
   margin-left: auto;
 }
-.about-img-left figure, 
-.about-img-center figure, 
+.about-img-left figure,
+.about-img-center figure,
 .about-img-right figure {
   margin: 0;
 }
-.about-img-left figure img, 
-.about-img-center figure img, 
+.about-img-left figure img,
+.about-img-center figure img,
 .about-img-right figure img {
   max-width: 100%;
 }
@@ -322,5 +337,39 @@ header {
   margin: 0 auto;
   margin-right: 0;
   display: block;
+}
+.about .container {
+  max-width: 1170px;
+}
+.about .about-text {
+  margin: 0;
+  text-align: center;
+}
+.about .about-text p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #232323;
+  padding: 55px;
+  border: #848484 solid 1px;
+  margin-bottom: 70px;
+}
+.about .about-text .btn {
+  margin-top: 50px;
+  font-size: 17px;
+  background: #302128;
+  max-width: 186px;
+  width: 100%;
+  transition: ease-in all 0.5s;
+  color: #fff;
+  display: block;
+  height: 52px;
+  line-height: 52px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about .about-text .btn:hover {
+  background: #feb700;
+  color: #302128;
 }
 /*! banner end */
