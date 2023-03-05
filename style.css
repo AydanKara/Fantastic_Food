@@ -149,6 +149,26 @@ header {
   background: #fff;
   position: relative;
 }
+.recipes::before {
+  position: absolute;
+  content: "";
+  background: url(./images/recipes/left_before.png);
+  background-repeat: no-repeat;
+  width: 249px;
+  height: 500px;
+  left: 0;
+  bottom: 110px;
+}
+.recipes::after {
+  position: absolute;
+  content: "";
+  background: url(./images/recipes/right_after.png);
+  background-repeat: no-repeat;
+  width: 302px;
+  height: 500px;
+  right: -67px;
+  bottom: 110px;
+}
 .recipes .container {
   max-width: 1170px;
 }
@@ -164,7 +184,6 @@ header {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  
 }
 .row .recipes-row--title {
   text-align: center;
@@ -197,11 +216,12 @@ header {
 
 .recipes .row-col .recipes-row-box {
   background: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   padding: 50px 20px;
   z-index: 9;
   position: relative;
   border: solid #ffc000 5px;
+  text-align: center;
 }
 .recipes-row-box figure {
   margin: 0;
@@ -212,5 +232,39 @@ header {
   vertical-align: middle;
   border-style: none;
 }
-
+.recipes-row-box h3 {
+  color: #161616;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 22px;
+}
+.recipes-row-box span {
+  color: #ffba00;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: bold;
+}
+.recipes .row-col-button {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.recipes .row-col-button .btn {
+  margin-top: 50px;
+  font-size: 17px;
+  background: #302128;
+  max-width: 186px;
+  width: 100%;
+  transition: ease-in all 0.5s;
+  color: #fff;
+  display: block;
+  height: 52px;
+  line-height: 52px;
+  margin: 0 auto;
+  text-align: center;
+}
+.recipes .row-col-button .btn:hover {
+  background: #feb700;
+  color: #302128;
+}
 /*! banner end */
