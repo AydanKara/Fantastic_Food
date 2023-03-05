@@ -192,7 +192,7 @@ header {
   background: #fff;
   margin-bottom: 30px;
   padding: 50px 20px;
-  z-index: 9999;
+  z-index: 9;
   position: relative;
   border: solid #ffc000 5px;
 }
