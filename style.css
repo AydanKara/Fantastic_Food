@@ -31,6 +31,12 @@ h6,
 p {
   margin: 0;
 }
+.offset-1 {
+  margin-left: 16.666667%;
+}
+.offset-2 {
+  margin-left: 33.333333%;
+}
 
 /*! base start */
 
@@ -188,6 +194,7 @@ header {
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
 }
+
 .recipes .row-col .recipes-row-box {
   background: #fff;
   margin-bottom: 30px;
