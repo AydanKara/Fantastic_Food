@@ -19,7 +19,6 @@
             </div>
             <div class="header-navbar">
               <nav class="navbar">
-                <span class="burger-list-menu"><img src="" alt=""></span>
                 <ul class="menu-list">
                   <li><a href="#">HOME</a></li>
                   <li><a href="#">ABOUT</a></li>
@@ -38,6 +37,9 @@
             <div class="header-login">
               <i class="bi bi-person-fill"></i>
             </div>
+          </div>
+          <div class="menu-list-icon">
+            <i class="bi bi-list"></i>
           </div>
         </div>
       </div>
@@ -175,13 +177,18 @@
       </div>
       <div class="container">
         <div class="row">
-            <div class="row-col-12">
-                <div class="about-text">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
-                    </p>
-                    <a class="btn" href="#">Read More</a>
-                </div>
+          <div class="row-col-12">
+            <div class="about-text">
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum It is a long established fact
+                that a reader will be distracted by the readable content of a
+                page when looking at its layout. The point of using Lorem Ipsum
+              </p>
+              <a class="btn" href="#">Read More</a>
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -189,70 +196,91 @@
 
     <!--! book table start -->
     <div class="book-table">
-        <div class="container">
-            <div class="row">
-                <div class="row-col-12">
-                    <div class="book-table-title">
-                        <h2>Book a <span class="yellow">Table</span></h2>
-                        <p>distracted by the readable content of a page when l</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="row-col-12">
+            <div class="book-table-title">
+              <h2>Book a <span class="yellow">Table</span></h2>
+              <p>distracted by the readable content of a page when l</p>
             </div>
-            <div class="row d_flex_wrap">
-                <div class="row-col-50">
-                    <form class="table-form" action="">
-                        <div class="row">
-                            <div class="row-col-12">
-                                <div class="group-form">
-                                    <div class="form-icon"><img src="./images/form/time.png" alt="#"></div>
-                                    <input class="contactus" placeholder="Time" name="Time" type="text">
-                                </div>
-                            </div>
-                            <div class="row-col-12">
-                                <div class="group-form">
-                                    <div class="form-icon"><img src="./images/form/date.png" alt="#"></div>
-                                    <input class="contactus" placeholder="Date" name="Date" type="text">
-                                </div>
-                            </div>
-                            <div class="row-col-12">
-                                <div class="group-form">
-                                    <select id="selesur" class="contactus" style="display: none;">
-                                        <option value="0">Select people</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                    </select>
-                                    <div class="nice-select contactus" tabindex="0">
-                                        <span class="current">Select people</span>
-                                        <ul class="list">
-                                            <li data-value="0" class="option selected focus">Select people</li>
-                                            <li data-value="1" class="option">1</li>
-                                            <li data-value="2" class="option">2</li>
-                                            <li data-value="3" class="option">3</li>
-                                        </ul> <!-- after -->
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row-col-12">
-                                <button class="send-btn">Book Now</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="row-col-50">
-                    <div class="table-img">
-                        <figure><img src="./images/form/table_img.png" alt="#"></figure>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row d_flex_wrap">
+          <div class="row-col-50">
+            <form class="table-form" action="">
+              <div class="row">
+                <div class="row-col-12">
+                  <div class="group-form">
+                    <div class="form-icon">
+                      <img src="./images/form/time.png" alt="#" />
+                    </div>
+                    <input
+                      class="contactus"
+                      placeholder="Time"
+                      name="Time"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="row-col-12">
+                  <div class="group-form">
+                    <div class="form-icon">
+                      <img src="./images/form/date.png" alt="#" />
+                    </div>
+                    <input
+                      class="contactus"
+                      placeholder="Date"
+                      name="Date"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div class="row-col-12">
+                  <div class="group-form">
+                    <select
+                      id="selesur"
+                      class="contactus"
+                      style="display: none"
+                    >
+                      <option value="0">Select people</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                    <div class="nice-select contactus" tabindex="0">
+                      <span class="current">Select people</span>
+                      <ul class="list">
+                        <li data-value="0" class="option selected focus">
+                          Select people
+                        </li>
+                        <li data-value="1" class="option">1</li>
+                        <li data-value="2" class="option">2</li>
+                        <li data-value="3" class="option">3</li>
+                      </ul>
+                      <!-- after -->
+                    </div>
+                  </div>
+                </div>
+                <div class="row-col-12">
+                  <button class="send-btn">Book Now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="row-col-50">
+            <div class="table-img">
+              <figure><img src="./images/form/table_img.png" alt="#" /></figure>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--! book table end -->
 
     <script src="./function.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -402,14 +402,40 @@ header {
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 10px;
+    background-size: 100px;
+  }
+  .header-row .container .menu-list-icon {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    color: #fff;
+    font-size: 80px;
   }
   .header-navbar .navbar {
     position: relative;
   }
-  .header-navbar .navbar .burger-list-menu {
-    visibility: visible;
-    
+  .offset-1 {
+    margin-left: unset;
+  }
+  .offset-2 {
+    margin-left: unset;
+  }
+  .recipes::after {
+    z-index: -1;
   }
 }
 @media (max-width: 576px) {
+  .header-row .container .menu-list-icon {
+    position: absolute;
+    right: 10px;
+    top: 27px;
+    color: #fff;
+    font-size: 40px;
+  }
+  .recipes::before {
+    visibility: hidden;
+  }
+  .recipes::after {
+    visibility: hidden;
+  }
 }
