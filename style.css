@@ -451,7 +451,7 @@ header {
 .contactus.nice-select::after {
   border-bottom: 2px solid #000000;
   border-right: 2px solid #000000;
-  content: '';
+  content: "";
   display: block;
   height: 12px;
   pointer-events: none;
@@ -542,6 +542,18 @@ header {
   .header-navbar .navbar {
     position: relative;
   }
+  .banner-bg span {
+    font-size: 38px;
+  }
+  .banner-bg strong {
+    font-size: 76px;
+  }
+  .banner-bg h1 {
+    font-size: 76px;
+  }
+  .banner-bg h2 {
+    font-size: 138px;
+  }
   .offset-1 {
     margin-left: unset;
   }
@@ -563,7 +575,7 @@ header {
   .table-img figure img {
     margin: 0 auto;
     margin-top: 30px;
-}
+  }
 }
 @media (max-width: 576px) {
   .header-row .container .menu-list-icon {
@@ -572,6 +584,38 @@ header {
     top: 27px;
     color: #fff;
     font-size: 40px;
+  }
+  .banner-bg {
+    background-size: cover;
+    background-position: center;
+}
+  .banner-bg-text {
+    gap: 80px;
+  }
+  .banner-bg span {
+    font-size: 26px;
+    color: #000;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .banner-bg strong {
+    font-size: 36px;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .banner-bg h1 {
+    font-size: 45px;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .banner-bg h2 {
+    font-size: 85px;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
   }
   .recipes::before {
     visibility: hidden;
