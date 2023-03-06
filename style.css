@@ -502,6 +502,13 @@ header {
 }
 /*! book table end */
 
+/*! map start */
+.section .row-col-12 {
+  padding: 0;
+}
+/*! map end */
+
+
 /*! responsive */
 @media (max-width: 1199px) {
   .header-row .header-navbar .menu-list {
