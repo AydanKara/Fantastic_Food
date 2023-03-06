@@ -111,6 +111,9 @@ header {
   margin-right: auto;
   margin-left: auto;
 }
+.header-row .container .menu-list-icon {
+  display: none;
+}
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -405,6 +408,7 @@ header {
     background-size: 100px;
   }
   .header-row .container .menu-list-icon {
+    display: block;
     position: absolute;
     right: 10px;
     top: 2px;
