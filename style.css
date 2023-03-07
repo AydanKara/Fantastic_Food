@@ -594,6 +594,69 @@ header {
 }
 /*! news end */
 
+/*! blog start */
+.blog {
+  background: #ffffff;
+  padding-top: 85px;
+  position: relative;
+}
+.blog .container {
+  max-width: 1170px;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.test-box {
+  background: #ffffff;
+  box-shadow: 0 0 19px rgb(30 30 30 / 10%);
+  padding: 0 40px 55px 40px;
+  margin: 15px;
+  margin-top: 66px;
+  z-index: 9999999;
+  position: relative;
+  text-align: left;
+}
+.test-box i img {
+  margin-top: -66px;
+}
+.test-box h4 {
+  color: #262626;
+  font-size: 29px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.test-box span {
+  width: 121px;
+  background: #ffb800;
+  height: 9px;
+  display: block;
+  margin-top: 15px;
+}
+.test-box p {
+  color: #262626;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 40px 0 50px 0;
+}
+.img-responsive {
+  max-width: 100%;
+}
+/*! blog end */
+
 /*! responsive */
 @media (max-width: 1199px) {
   .header-row .header-navbar .menu-list {
