@@ -128,7 +128,7 @@ header {
   width: 100%;
   background: #251524;
   box-shadow: 0 20px 50px -20px rgb(0 0 0 / 50%);
-  z-index: 10;
+  z-index: 20;
 }
 .header-row {
   height: 103px;
@@ -620,6 +620,7 @@ header {
   background: #ffffff;
   padding-top: 85px;
   position: relative;
+  z-index: 1;
 }
 .blog .container {
   max-width: 1170px;
