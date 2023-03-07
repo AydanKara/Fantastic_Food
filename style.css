@@ -603,7 +603,6 @@ header {
     font-size: 18px;
   }
 }
-
 @media (max-width: 992px) {
   .header-row .header-navbar .menu-list {
     column-gap: 15px;
