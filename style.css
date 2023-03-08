@@ -799,6 +799,12 @@ ul.contact li a {
 }
 /*! footer end */
 
+/* animation */
+
+
+
+/* animation */
+
 /*! responsive */
 @media (max-width: 1199px) {
   .header-row .header-navbar .menu-list {
@@ -904,6 +910,19 @@ ul.contact li a {
     color: #fff;
     font-size: 40px;
   }
+  .header-row .container .menu-list-icon .bi.bi-x-lg {
+    animation: unset;
+  }
+
+  @keyframes animate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  
   .header-row .container .menu-list-icon .bi.bi-x-lg {
     display: none;
     font-size: 32px;
