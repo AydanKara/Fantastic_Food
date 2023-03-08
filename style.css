@@ -862,7 +862,7 @@ ul.contact li a {
     width: 100%;
     margin-left: 8%;
     margin-right: 8%;
-    margin-top: 450px;
+    margin-top: 448px;
   }
   .header-navbar .navbar {
     background: #251524;
@@ -929,7 +929,6 @@ ul.contact li a {
   .header-row .container .menu-list-icon .bi.bi-x-lg {
     animation: unset;
   }
-
   @keyframes animate {
     0%{
       transform: rotate(0deg);
@@ -938,11 +937,9 @@ ul.contact li a {
       transform: rotate(360deg);
     }
   }
-  
   .header-row .container .menu-list-icon .bi.bi-x-lg {
     display: none;
     font-size: 32px;
-    
   }
   .banner-bg {
     background-size: cover;
