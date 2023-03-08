@@ -149,6 +149,9 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.header-row .header-navbar {
+  
+}
 .header-row .header-navbar .menu-list {
   display: flex;
   align-items: center;
@@ -830,6 +833,9 @@ ul.contact li a {
     color: #fff;
     font-size: 80px;
   }
+  .header-row .container .menu-list-icon .bi.bi-x-lg{
+    display: none;
+  }
   .header-navbar {
     width: 100%;
     margin-left: 8%;
@@ -898,6 +904,12 @@ ul.contact li a {
     color: #fff;
     font-size: 40px;
   }
+  .header-row .container .menu-list-icon .bi.bi-x-lg {
+    display: none;
+    font-size: 32px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
   .banner-bg {
     background-size: cover;
     background-position: center;
@@ -936,5 +948,5 @@ ul.contact li a {
   .recipes::after {
     visibility: hidden;
   }
-  
 }
+
