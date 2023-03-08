@@ -117,7 +117,6 @@ p {
   }
 }
 @media (min-width: 576px) {
-  
 }
 /*! base end */
 
@@ -739,7 +738,7 @@ ul.contact li a {
   color: #fff;
 }
 .news-footer {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 40px;
   width: 100%;
   height: 45px;
@@ -753,7 +752,7 @@ ul.contact li a {
   border-bottom: #7b7176 solid 1px;
 }
 .subscribe-btn {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 17px;
   transition: ease-in all 0.5s;
   background-color: #ffffff;
@@ -818,16 +817,11 @@ ul.contact li a {
   }
 }
 @media (max-width: 768px) {
-  .header-wrapper {
-    visibility: hidden;
+  .header-row .header-search,
+  .header-row .header-login {
+    display: none;
   }
-  .header-row {
-    background: url(./images/logo.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-x: 10px;
-    background-size: 100px;
-  }
+  
   .header-row .container .menu-list-icon {
     display: block;
     position: absolute;
@@ -836,8 +830,27 @@ ul.contact li a {
     color: #fff;
     font-size: 80px;
   }
+  .header-navbar {
+    width: 100%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 450px;
+  }
   .header-navbar .navbar {
-    position: relative;
+    background: #251524;
+    padding: 30px;
+    box-shadow: 0 -5px 50px 20px rgb(0 0 0 / 100%);
+    display: none;
+  }
+  .header-navbar-logo {
+    display: block;
+  }
+  .header-navbar .navbar .menu-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-navbar .navbar .menu-list li {
+    padding: 10px;
   }
   .banner-bg span {
     font-size: 38px;
@@ -875,10 +888,13 @@ ul.contact li a {
   }
 }
 @media (max-width: 576px) {
+  .header-row {
+    height: 70px;
+  }
   .header-row .container .menu-list-icon {
     position: absolute;
     right: 10px;
-    top: 27px;
+    top: 12px;
     color: #fff;
     font-size: 40px;
   }
@@ -920,4 +936,5 @@ ul.contact li a {
   .recipes::after {
     visibility: hidden;
   }
+  
 }
